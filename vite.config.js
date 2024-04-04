@@ -20,7 +20,7 @@ export default defineConfig({
     port: 3001,
     proxy: {
       "/api": {
-        target: process.env.API_URL,
+        target: "https://api-backend-fashion.onrender.com/",
         changeOrigin: true,
       }
     }
