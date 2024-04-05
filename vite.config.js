@@ -7,7 +7,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  base: 'e-commerce',
+  // base: 'e-commerce',
   plugins: [
     vue(),
   ],
